@@ -1,16 +1,18 @@
 $red: #E63946;
-$white: #F1FAEE;
 $light-blue: #A8DADC;
 $blue: #457B9D;
 $dark-blue: #1D3557;
 
 $primary: $red;
+$light: $white;
 $link: $dark-blue;
 
 $control-border-width: 2px;
-$input-background-color: $blue;
-$input-border-color: transparent;
-$input-shadow: none;
 
+$input-shadow: none;
+$input-border-color: none;
+$input-background-color: $white;
+$input-hover-border-color: $red;
+$input-focus-border-color: $red;
 
 @import "~bulma/bulma.sass"
