@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +17,5 @@ use App\Http\Controllers\Controller;
 */
 
 Route::get('/', [Controller::class, 'index'])->name('index');
+
+Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
