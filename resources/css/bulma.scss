@@ -4,14 +4,16 @@ $blue: #457B9D;
 $dark-blue: #1D3557;
 
 $primary: $red;
-$light: $white;
+$light: #FFF;
 $link: $dark-blue;
 
 $control-border-width: 2px;
 
+$input-color: black;
+$input-hover-color: black;
 $input-shadow: none;
 $input-border-color: none;
-$input-background-color: $white;
+// $input-background-color: $white;
 $input-hover-border-color: $red;
 $input-focus-border-color: $red;
 
