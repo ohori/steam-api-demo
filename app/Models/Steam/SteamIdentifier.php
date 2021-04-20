@@ -30,7 +30,7 @@ class SteamIdentifier extends SteamModel {
         return $response['steamid'];
     }
 
-    private function isSteamId($search_term)
+    private function isSteamId($search_term) : bool
     {
         return is_numeric($search_term) && strlen($search_term) == 17;
     }
